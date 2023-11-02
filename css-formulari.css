@@ -1,0 +1,104 @@
+form {
+    font-family: sans-serif;
+    background-color: #EBCAFF;
+    width: 600px;
+    height: 800px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+#formulario1 {
+    font-family: sans-serif;
+    background-color: #EBCAFF;
+    width: 300px;
+    height: 150px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+h1 {
+    color: #DC7C2C;
+    text-align: center;
+}
+.texto {
+    width: 300px;
+    background-color: white;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    border-width: 1px;
+}
+#email1 {
+    margin-left: 101px;
+}
+#edat {
+    width: 100px;
+    background-color: white;
+    margin-left: 108px;
+}
+select {
+    width: 65px;
+    background-color: white;
+    margin-left: 5px;
+}
+select:hover {
+    background-color: rgb(199, 199, 199);
+    width: 65px;
+}
+.redonda {
+    margin-right: 8px;
+}
+#subpreguntas {
+    font-weight: bold;
+}
+.check {
+    margin-right: 8px;
+}
+textarea {
+    width: 350px;
+    height: 100px;
+    color: black;
+    resize: none;
+    border-color: black;
+}
+#boton {
+    background-color: #DC7C2C;
+    width: 100px;
+    height: 45px;
+}
+#boton:hover {
+    background-color: red;
+    font-weight: bold;
+}
+#boton:focus {
+    background-color: rgb(1, 196, 1);
+    font-weight: bold;
+}
+#boton2 {
+    background-color: #DC7C2C;
+    width: 70px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#boton2:hover {
+    background-color: red;
+    font-weight: bold;
+}
+#boton2:focus {
+    background-color: rgb(1, 196, 1);
+    font-weight: bold;
+}
+#enviado {
+    text-align: center;
+}

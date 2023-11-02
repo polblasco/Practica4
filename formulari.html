@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulari</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css-formulari.css">
+        <link rel="stylesheet" href="formulari_enviat.html">
+    </head>
+    <body>
+        <form id="formulario" action="formulari_enviat.html">
+            <h1>Subscriu-te al noticiari ITIC Barcelona</h1>
+            <h4>Primer, explica'ns qui ets: </h4>
+            <label>Email </label><input type="email" class="texto" id="email1" placeholder="Escriu el tu email..." required>
+            <br>
+            <label>Nom i cognoms </label><input type="text" class="texto" placeholder="Escriu el teu nom i cognoms..." required>
+            <br>
+            <label>Edat </label><input type="number" class="texto" id="edat" placeholder="Edat..." required>
+            <br>
+            <br>
+            <h4>Quin cicle estàs estudiant?</h4>
+            <input type="radio" class="redonda" checked><label>ASIX</label>
+            <br>
+            <input type="radio" class="redonda" required><label>DAM</label>
+            <br>
+            <input type="radio" class="redonda" required><label>DAW</label>
+            <br>
+            <br>
+            <label class="subpreguntas">I en quin curs? </label><select required>
+                <option>--</option>
+                <option>Primer</option>
+                <option>Segon</option>
+            </select>
+            <br>
+            <br>
+            <h4>Marca els temes que vulguis etar sempre al dia! </h4>
+            <input type="checkbox" class="check" checked><label>Intel·ligència artificial</label>
+            <br>
+            <input type="checkbox" class="check"><label>Somputació quàntica</label>
+            <br>
+            <input type="checkbox" class="check"><label>Supercomputadors</label>
+            <br>
+            <input type="checkbox" class="check"><label>Recerca en algorísmia</label>
+            <br>
+            <br>
+            <br>
+            <label class="subpreguntas">Hi ha algun tema més t'interessi? Explica'ns-ho!</label>
+            <br>
+            <br>
+            <textarea placeholder="També m'agradaria saber las últimes novetats sobre..."></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Subscriu-me" id="boton">
+        </form>
+    </body>
